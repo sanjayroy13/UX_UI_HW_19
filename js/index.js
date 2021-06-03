@@ -1,3 +1,3 @@
-$("#hero").on("click", function(){
-    console.log("SUCCESS");
-})
+$("p").click(function(){
+    $(this).hide();
+  });
