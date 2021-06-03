@@ -1,4 +1,4 @@
-$(".resume").on({
+$(".download").on({
     mouseenter: function(){
       $(this).css("background-color", "00AC5A");
     },
