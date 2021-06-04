@@ -6,6 +6,9 @@
         <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
+        <div class="loader">
+            <img src="images/loading.gif">
+        </div>
         <header class="navigation">
             <div class="inline-block logo">
                 <img src="images/logo1.png" id="logo1">
@@ -13,16 +16,16 @@
             <nav class="inline-block">
                 <ul>
                     <li class="inline-block">
-                        about
+                        <a href="#aboutMe">about</a> 
                     </li>
                     <li class="inline-block">
-                        skills
+                        <a href="#skills">skills</a> 
                     </li>
                     <li class="inline-block">
-                        work
+                        <a href="#myWork">work</a>
                     </li>
                     <li class="inline-block">
-                        contact
+                        <a href="#myFoot">contact</a>
                     </li>
                 </ul>
             </nav>
@@ -34,7 +37,7 @@
             <img src="images/aboutme.png" id="aboutMe">
             <img src="images/dogma.png" id="dogma">
             <div class="resume">
-                <button>
+                <button class="download">
                 Download Resume
                 </button>
             </div>
@@ -46,7 +49,7 @@
 
         <section class="myWork">
             <div class="workHeader">
-                <h1>
+                <h1 id="myWork">
                     my work
                 </h1>
             </div>
@@ -56,7 +59,7 @@
 
                 <div class="backdrop">
                     <div class="logoImg">
-                        <img src="images/TCMUmyWork.png">
+                        <img src="images/TCMUmyWork.png" class="responsive">
                     </div>
                     <div class="description">
                         <div class="csHeader">
@@ -65,13 +68,12 @@
                         <div class="csBody">
                             <p>A mobile responsive mockup designed for 
                             fully inclusive functionality. This project 
-                            was all about learning from the users we had 
-                            at hand and building something that would 
-                            make an impact for both stockholders and a 
+                            was all about making the most impact possible
+                             for both stockholders and a 
                             local community of users.</p>
                         </div>
                         <div class="csButton">
-                            <button class="viewProject">
+                            <button class="responsive">
                             View Project
                         </button>
                         </div>
@@ -81,7 +83,7 @@
                 
                 <div class="backdrop">
                     <div class="logoImg">
-                        <img src="images/USSFmyWork.png">
+                        <img src="images/USSFmyWork.png" class="responsive">
                     </div>
                     <div class="description">
                         <div class="csHeader">
@@ -94,7 +96,7 @@
                             </p>
                         </div>
                         <div class="csButton">
-                            <button>
+                            <button class="responsive">
                             View Project
                         </button>
                         </div>
@@ -104,7 +106,7 @@
 
                 <div class="backdrop">
                     <div class="logoImg">
-                        <img src="images/MARSmyWork.png">
+                        <img src="images/MARSmyWork.png" class="responsive">
                     </div>
                     <div class="description">
                         <div class="csHeader">
@@ -119,7 +121,7 @@
                                 rescue.</p>
                         </div>
                         <div class="csButton">
-                            <button>
+                            <button class="responsive">
                             View Project
                         </button>
                         </div>
@@ -131,8 +133,25 @@
         </section>
 
         <footer>
-            
+            <div class="quentin">
+                <div class="google inline-block">
+                    <div class="contactImg inline-block">
+                        <img src="images/brand/google.png" class="responsive">
+                    </div>
+                    <div class="contact inline-block">
+                        <a href="sanjayroy1309@gmail.com" class="footerLinks">sanjayroy1309@gmail.com</a>
+                    </div>
+                </div>
+                <div class="linkedin inline-block">
+                    <div class="contactImg inline-block">
+                        <img src="images/brand/LinkedIn.png" class="responsive">
+                    </div>
+                    <div class="contact inline-block">
+                        <a href="www.linkedin.com/in/sanjayroy13" class="footerLinks">sanjayroy13</a>
+                    </div>  
+                </div>
+            </div>
         </footer>
     </body>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/index.js"></script>
 </html>
