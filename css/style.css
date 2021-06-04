@@ -33,7 +33,7 @@ p {
 }
 a {
     font-family: Spectral;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
     text-decoration: none;
 }
@@ -80,6 +80,8 @@ li:hover {
     text-shadow: black;
     height: 100px;
     display: flex;
+    outline: solid black .5px;
+    z-index: 98;
 }
 .quentin {
     box-shadow: black;
@@ -172,7 +174,9 @@ button {
     margin: 1%;
     height: 10vh;
 }
-
+.mySkills {
+    margin: 100px;
+}
 
 button:hover {
     background-color: #00AC5A;
@@ -246,8 +250,6 @@ button:hover {
     grid-area: header;
 }
 .csButton {
-    width: auto;
-    height: auto;
     margin-left: 1vw;
     margin-top: 1vh;
     display: flex;
