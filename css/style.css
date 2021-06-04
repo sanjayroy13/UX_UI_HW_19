@@ -24,6 +24,8 @@ body {
      }
  }
  
+
+
 p {
     font-family: 'Spartan', 'sans serif';
     font-size:calc(1px + 1.5vw);
@@ -35,6 +37,18 @@ a {
     color: white;
     text-decoration: none;
 }
+h4 {
+    font-family: 'Spartan', sans-serif;
+    font-size: 2.5vw;
+    color: white;
+}
+h1 {
+    font-family: 'Spectral', serif;
+    font-size: 3vw;
+}
+
+
+
 li {
     font-family: Spectral;
     font-style: normal;
@@ -51,15 +65,7 @@ li {
 li:hover {
     background-image: linear-gradient(to bottom, rgba(28, 28, 28, .8), rgba(0, 0, 0, 1));
 }
-h4 {
-    font-family: 'Spartan', sans-serif;
-    font-size: 2.5vw;
-    color: white;
-}
-h1 {
-    font-family: 'Spectral', serif;
-    font-size: 3vw;
-}
+
 .inline-block {
     display: inline-block;
     vertical-align: top;
@@ -149,17 +155,25 @@ button {
     border-radius: 3px;
     color: black;
     position: absolute;
-    width: 20%;
-    height: 12%;
+    width: 25vw;
+    
     text-align: center; 
     align-items: center; 
-    font-size: calc(14px 1vw); 
+    font-size: 1.8vw; 
     font-family: "Spartan";
     font-weight: bold;
 }
 .download {
+    height: 8vh;
+    min-height: 80px;
+}
+.viewP {
+    max-height: 30px;
+    margin: 1%;
     height: 10vh;
 }
+
+
 button:hover {
     background-color: #00AC5A;
     color: white;
@@ -189,12 +203,12 @@ button:hover {
 .backdrop {
     background: #252525;
     width: 70vw;
-    height: 20%;
+    height: 15%;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     margin-top: 1%;
     margin-bottom: 2%;
     padding-left: 1%;
@@ -221,7 +235,7 @@ button:hover {
     margin-bottom: 5vh;
 }
 .csHeader {
-    height: 20%;
+    height: 10%;
     margin-left: 1vw;
     margin-top: 5vh;
     font-family: 'Spartan', sans-serif;
