@@ -49,7 +49,7 @@ li {
     color: white;
 }
 li:hover {
-    background-color: rgba(54, 54, 54, 0.5);
+    background-image: linear-gradient(to bottom, rgba(28, 28, 28, .8), rgba(0, 0, 0, 1));
 }
 h4 {
     font-family: 'Spartan', sans-serif;
@@ -83,28 +83,31 @@ h1 {
     display: flex;
     background-color: #1c1c1c;
     border: solid black 1px;
+    align-items: center;
 }
 a.footerLinks {
     font-family: 'Spartan', 'sans serif';
     font-size: 1.5vw;
 }
 .google {
-    outline: solid red 1px;
-    width: 50%;
+    width: 30%;
+    align-items: center;
+    display: flex;
+    margin-left: 30%;
+}
+.linkedin {
+    display: flex;
+    align-items: center;
+    width: 30%;
 }
 .contactImg {
-    outline: solid red 1px;
-    width: auto
+    width: auto;
 }
 .contact {
-    outline: solid red 1px;
     display: inline-block;
     margin-top: 1%;
 }
-.linkedin {
-    outline: solid red 1px;
-    width: 50%;
-}
+
 nav {
     width: 73%;
     padding: 1%;
@@ -150,9 +153,12 @@ button {
     height: 12%;
     text-align: center; 
     align-items: center; 
-    font-size: 1.5vw; 
+    font-size: calc(14px 1vw); 
     font-family: "Spartan";
     font-weight: bold;
+}
+.download {
+    height: 10vh;
 }
 button:hover {
     background-color: #00AC5A;
@@ -182,8 +188,8 @@ button:hover {
 }
 .backdrop {
     background: #252525;
-    width: 70%;
-    height: 30%;
+    width: 70vw;
+    height: 20%;
     box-sizing: border-box;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -212,12 +218,12 @@ button:hover {
     font-weight: 300;
     grid-area: body;
     margin-left: 1vw;
-    margin-bottom: 5vw;
+    margin-bottom: 5vh;
 }
 .csHeader {
     height: 20%;
-    margin: auto;
     margin-left: 1vw;
+    margin-top: 5vh;
     font-family: 'Spartan', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -229,11 +235,11 @@ button:hover {
     width: auto;
     height: auto;
     margin-left: 1vw;
-    margin-top: 1vw;
+    margin-top: 1vh;
     display: flex;
     align-items: center;
 
-    margin-bottom: 1%;
+    margin-bottom: 2vh;
     grid-area: button;
 
 }
